@@ -1,0 +1,32 @@
+* {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+a.logo {
+    font-family: 'Bangers', cursive;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+}
+
+li.menu {
+    font-size: 14px;
+}
+
+div.topo {
+    margin-top: 60px;
+}
+
+.display h5 {
+    letter-spacing: 0.03em;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+h2.subtitulo {
+    font-family: 'Bangers', cursive;
+    font-size: 28px;
+    letter-spacing: 0.025em;
+}

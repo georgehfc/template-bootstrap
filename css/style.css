@@ -2,6 +2,10 @@
     font-family: 'Fira Sans', sans-serif;
 }
 
+h1.titulo {
+    font-family: 'Bangers', cursive;
+}
+
 a.logo {
     font-family: 'Bangers', cursive;
     font-size: 24px;
@@ -10,10 +14,6 @@ a.logo {
 
 li.menu {
     font-size: 14px;
-}
-
-div.topo {
-    margin-top: 60px;
 }
 
 .display h5 {
@@ -29,4 +29,8 @@ h2.subtitulo {
     font-family: 'Bangers', cursive;
     font-size: 28px;
     letter-spacing: 0.025em;
+}
+
+button.radius {
+    border-radius: 0 .3rem .3rem 0;
 }

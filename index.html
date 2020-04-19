@@ -46,15 +46,15 @@
                         <a class="nav-link" href="#">Início<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item menu">
-                        <a class="nav-link" href="#">Produto</a>
+                        <a class="nav-link" href="#">Bugingangas</a>
                     </li>
                     <li class="nav-item menu dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">História</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Causos</a>
+                        <a class="dropdown-item" href="#">Visitantes Ilustres</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Galeria</a>
                     </div>
                     </li>
                     <li class="nav-item menu">
@@ -68,59 +68,79 @@
     </nav>
     </header>
 
-        <!-- Carousel Bootstrap -->
-    <div id="carrosselBootstrap" class="carousel slide topo" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carrosselBootstrap" data-slide-to="0" class="active"></li>
-            <li data-target="#carrosselBootstrap" data-slide-to="1"></li>
-            <li data-target="#carrosselBootstrap" data-slide-to="2"></li>
-            <li data-target="#carrosselBootstrap" data-slide-to="3"></li>
-        </ol>
+    <section class="container-fluid pt-5">
+        <div class="row bg-warning text-white">
+            <div class="col-lg-7 p-0 pt-2">
+                <!-- Carousel Bootstrap -->
+                <div id="carrosselBootstrap" class="carousel slide topo" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carrosselBootstrap" data-slide-to="0" class="active"></li>
+                        <li data-target="#carrosselBootstrap" data-slide-to="1"></li>
+                        <li data-target="#carrosselBootstrap" data-slide-to="2"></li>
+                        <li data-target="#carrosselBootstrap" data-slide-to="3"></li>
+                    </ol>
 
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/carousel/1.png" class="d-block w-100" alt="cadeirinha">
-                <div class="carousel-caption display d-none d-md-block">
-                    <h5>Entrega Garantida</h5>
-                    <p>Não importa onde você esteja, levaremos breja.</p>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/carousel/1.png" class="d-block w-100" alt="cadeirinha">
+                            <div class="carousel-caption display d-none d-md-block">
+                                <h5>Entrega Garantida</h5>
+                                <p>Não importa onde você esteja, levaremos breja.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img src="img/carousel/2.png" class="d-block w-100" alt="cadeirinha">
+                            <div class="carousel-caption display d-none d-md-block">
+                                <h5>Formas de Pagamento</h5>
+                                <p>Boleto, PicPay ou cartão. Fiado não.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="img/carousel/3.png" class="d-block w-100" alt="cadeirinha">
+                            <div class="carousel-caption display d-none d-md-block">
+                                <h5>Bira Bar</h5>
+                                <p>Cachaça amuada e churrasqueira.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img src="img/carousel/4.png" class="d-block w-100" alt="cadeirinha">
+                            <div class="carousel-caption display d-none d-md-block">
+                                <h5>Se Vier, Venha na Paz</h5>
+                                <p>Viajo porque preciso volto porque te amo.</p>
+                            </div>
+                        </div>
+
+                        <!-- controle Anterior Próximo -->
+                        <a class="carousel-control-prev" href="#carrosselBootstrap" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Anterior</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carrosselBootstrap" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Próximo</span>
+                        </a>
+                    </div>
                 </div>
             </div>
-            
-            <div class="carousel-item">
-                <img src="img/carousel/2.png" class="d-block w-100" alt="cadeirinha">
-                <div class="carousel-caption display d-none d-md-block">
-                    <h5>Formas de Pagamento</h5>
-                    <p>Boleto, PicPay ou cartão. Fiado não.</p>
-                </div>
-            </div>
 
-            <div class="carousel-item">
-                <img src="img/carousel/3.png" class="d-block w-100" alt="cadeirinha">
-                <div class="carousel-caption display d-none d-md-block">
-                    <h5>Bira Bar</h5>
-                    <p>Cachaça amuada e churrasqueira.</p>
-                </div>
+            <div class="col-lg-5 p-5">
+                <h1 class="titulo">Bira Bar</h1>
+                <p class="lead">O melhor local para lorem ipsum é com a Lorem ipsum, mais de 5.000 dolor concluídas</p>
+                <form action="">
+                    <div class="input-group input-group-lg">
+                        <input type="text" class="form-control" placeholder="E-mail" aria-label="E-mail">
+                        <span class="input-group-btn">
+                            <button class="btn btn-success btn-lg radius" type="button">Inscreva-se</button>
+                        </span>
+                    </div>
+                </form>
             </div>
-            
-            <div class="carousel-item">
-                <img src="img/carousel/4.png" class="d-block w-100" alt="cadeirinha">
-                <div class="carousel-caption display d-none d-md-block">
-                    <h5>Se Vier, Venha na Paz</h5>
-                    <p>Viajo porque preciso volto porque te amo.</p>
-                </div>
-            </div>
-
-            <a class="carousel-control-prev" href="#carrosselBootstrap" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Anterior</span>
-            </a>
-
-            <a class="carousel-control-next" href="#carrosselBootstrap" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Próximo</span>
-            </a>
         </div>
-    </div>
+        
+    </section>
 
     <!-- Se colocar container-fluid ele pega a lateral toda -->
     <main class="container">
